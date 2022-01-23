@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List with all Laboratories</title>
+<style>
+    .widget{
+        position:relative;
+        text-align: center;
+        z-index: 9999;
+    }
+    .iframer{ 
+        position:fixed;
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+        border:none;
+        z-index:1;
+    }
+    .dColor{
+        background-color: #fff;
+        color: rgb(3, 3, 33);
+        }
+    a{
+        font-size: 18px;
+        padding: 2px 3px 2px 3px;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+    }
+    p{
+        color: #fff;
+    }
+</style>
+</head>
+<body>
+
+    <div class="webpage"> 
+    <div class="widget">
+    <p>
+        <a class="dColor" href="index.html">Home</a> <br><br>
+        <a class="dColor" href="https://g1f1.github.io/HTML-LAB/lab1/lab1" target="iframer">Lab1</a> |
+        <a class="dColor" href="https://g1f1.github.io/HTML-LAB/lab1/lab2" target="iframer">Lab2</a> | 
+        <a class="dColor" href="https://g1f1.github.io/HTML-LAB/lab1/lab3" target="iframer">Lab3</a> |
+        <a class="dColor" href="https://g1f1.github.io/HTML-LAB/lab1/lab4" target="iframer">Lab4</a> 
+    </p>
+    </div>
+    </div>
+    <iframe class="iframer" name="iframer" src="https://g1f1.github.io/index.php" frameborder="0"></iframe>
+    
+</body>
+</html>
